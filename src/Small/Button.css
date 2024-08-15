@@ -1,0 +1,59 @@
+.custom-button{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-button>button{
+    cursor: pointer;
+    padding: 8px 27px;
+    font-size: 20px;
+    background: black;
+    border-radius: 30px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 20px;
+    color: white;
+    border: 3px solid color-mix(in srgb, lavender 30%, cornflowerblue 15%);
+}
+
+.custom-button>button>img{
+    height: 30px;
+}
+.custom-button>:focus,.custom-button>:active{
+
+}
+
+@media (min-width:320px) and (max-width:376px){
+    .custom-button>button{
+        justify-content: center;
+        gap: 10px;
+    width: 140px;
+    padding: 8px 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 18px; */
+    /* font-weight: 500; */
+    }
+   
+}
+@media (min-width:376px) and (max-width:426px){
+    .custom-button>button{
+        width: 155px;
+        /* padding: 8px 20px; */
+        }
+}
+@media (min-width:426px) and (max-width:769px){
+    .custom-button>button{
+        width: 180px;
+        /* padding: 8px 20px; */
+        }
+}
+@media (min-width:768px) and (max-width:31024px){
+    .custom-button>button{
+        height: 50px;
+        
+    }
+
+    }
